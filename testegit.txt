@@ -1,0 +1,17 @@
+carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
+$ mkdir versionamento
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
+$ cd versionamento
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git init
+Initialized empty Git repository in C:/Users/carlo/Desktop/versionamento/.git/
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$
