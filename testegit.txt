@@ -15,3 +15,105 @@ Initialized empty Git repository in C:/Users/carlo/Desktop/versionamento/.git/
 
 carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
 $
+
+agora o texto 
+carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
+$ mkdir versionamento
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
+$ cd versionamento
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git init
+Initialized empty Git repository in C:/Users/carlo/Desktop/versionamento/.git/
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ ^C
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ explorer .
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        testegit.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git add .
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   testegit.txt
+
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git commit -m "First commit"
+[master (root-commit) da8632d] First commit
+ 1 file changed, 17 insertions(+)
+ create mode 100644 testegit.txt
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git remote add origin https://github.com/CmiorinG/atividade2.git
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$ git push --set-upstream origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 400 bytes | 400.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CmiorinG/atividade2.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
+$
+
+
+
