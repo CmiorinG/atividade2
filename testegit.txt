@@ -16,6 +16,7 @@ Initialized empty Git repository in C:/Users/carlo/Desktop/versionamento/.git/
 carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
 $
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 agora o texto 
 carlo@NoteDoCarlos MINGW64 ~/Desktop (master)
@@ -122,3 +123,5 @@ $
 oie
 teste de alteração 
 >>>>>>> d4ffa76ec1777a1aed6f7378be50857a87ac18ec
+=======
+>>>>>>> a3f2ffc2252fa76ea0e1baaa6e237c0abbc0ec0d
