@@ -15,5 +15,3 @@ Initialized empty Git repository in C:/Users/carlo/Desktop/versionamento/.git/
 
 carlo@NoteDoCarlos MINGW64 ~/Desktop/versionamento (master)
 $
-oie
-teste de alteração 
